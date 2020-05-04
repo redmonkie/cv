@@ -1,0 +1,24 @@
+body {
+    background-color: #eeeeee; /* This replaces attribute in body tag */
+}
+
+hr {
+    /*background-color: darkslategrey; /* Color of the line */
+    border-style: dotted none none none; /* HR are wrapped in border. Get rid if you want to make it solid */
+    border-color: darkslategrey;
+    border-width: 5px;
+    /*height: 0px; /* By adjusting the height makes the HR bigger like a table */
+    width: 5%; /* Can be auto, px or % */
+    
+}
+
+h1 {
+    color: #393e46;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h2 {
+    color: #00adb5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
