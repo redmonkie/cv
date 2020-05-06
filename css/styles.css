@@ -1,20 +1,34 @@
 body {
     margin: 0px;
     text-align: center;
-}
-
-div {
-    background-color: #f5f5f5;
+    /* Merriweather font is an embedded font so need to be in '' */
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 50px auto 50px auto; /* Top, Right, Bottom, Left (Clockwise) */
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #e43f5a;
+    line-height: 1; /* Just give numerical value. Specifies height above and below text. */
+}
 
-    padding: 1%;
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: #e43f5a;
+    font-weight: normal;
+}
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #162447;
+}
+
+.topContainer{
+    background-color: #1f4068;
+    padding-top: 70px;
+    margin: 0;
 }
 
 .midContainer {
@@ -28,3 +42,89 @@ h1 {
     height: 200px;
     background-color: darkmagenta;
 }
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+
+}
+
+.topCloud {
+    position: absolute;
+    right: 358px;
+    top: 42px;
+}
+
+.bottomCloud {
+    position: absolute;
+}
+
+.footer-link {
+    color: #1b1b2f;
+}
+
+.imageNetwork {
+    width: 15%; /* Makes image a percentage of the parent. */
+    float: left; /* Lets stuff wrap around it */
+    margin-right: 30px;
+}
+
+.imageComputer {
+    width: 25%;
+    float: right; 
+    margin-left: 30px;
+}
+
+.imageWebdev {
+    width: 25%;
+    float: left; 
+    margin-right: 30px;
+}
+
+/*
+.clearPara {
+    clear: left; /* Undo's float/wrapping text 
+}
+*/
+
+.contactButton {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .contactButton:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
