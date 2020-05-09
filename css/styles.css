@@ -32,15 +32,11 @@ h3 {
 }
 
 .midContainer {
-    width: 200px;
-    height: 200px;
-    background-color: brown;
+
 }
 
 .bottomContainer {
-    width: 200px;
-    height: 200px;
-    background-color: darkmagenta;
+    padding-top: 50px;
 }
 
 .skill-row {
